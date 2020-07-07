@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dic, span, id and class</title>
+    <style>
+        .card{
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance{
+            color:yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<!-- ID and class are not different but use id should have individual meaning -->
+<body>
+    <div id="main-header" class="card">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit, amet <span class="enhance">consectetur adipisicing</span> elit. Dignissimos iure officiis voluptates dicta consequuntur debitis!</p>
+    </div>
+
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address : FF21-KDH, Silver Springs Layout</li>
+            <li>Phone No :9855339390</li>
+            <li>Email : hkashyap0809@gmail.com</li>
+        </ul>
+    </div>
+    <div id="footer">
+        Copyright&copy;  2020
+    </div>
+
+    <!-- DIV is ablock level element it pushes the next thing down where as span does not-->
+</body>
+
+</html>
